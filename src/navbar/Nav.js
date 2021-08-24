@@ -19,14 +19,16 @@ const Nav = () => {
 
     return (
         <div className={`nav ${show && "nav_black"}`}>
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2014_logo.svg"
-                alt="Netflix Logo"
-                className="nav_logo"
-            />
-            <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
-                alt="Netflix Logo"
-                className="nav_avatar"
-            />
+            <div className="nav_contents">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2014_logo.svg"
+                    alt="Netflix Logo"
+                    className="nav_logo"
+                />
+                <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+                    alt="Netflix Logo"
+                    className="nav_avatar"
+                />
+            </div>
         </div>
     )
 }

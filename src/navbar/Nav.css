@@ -27,3 +27,8 @@
   width: 30px;
   object-fit: contain;
 }
+
+.nav_contents {
+  display: flex;
+  justify-content: space-between;
+}

@@ -8,7 +8,7 @@ const Login = () => {
             <div className="login_screen">
                 <div className="login_screen_background">
                     <img
-                        src="http://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+                        src="https://upload.wikimedia.org/wikipedia/commons/0/0c/Netflix_2014_logo.svg"
                         alt=""
                         className="login_screen_logo" />
                     <button className="login_screen_signin">Sign In</button>
